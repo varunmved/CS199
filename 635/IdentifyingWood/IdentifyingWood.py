@@ -1,18 +1,3 @@
-'''
-def check(str1,str2):
-    if str1-str2 == '':
-        return True
-    else:
-        return False
-'''
-'''
-def check(str1,str2):
-    count = 0
-    for i in str1:
-        if i not in str2:
-            count+=1
-    return count == len(str2)
-'''
 def check(a,b):
     i = 0
     j = 0
